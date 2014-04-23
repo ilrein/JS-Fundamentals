@@ -1,0 +1,109 @@
+<html>
+-------------------------------------
+<p>EXERCISE: The reading list</p>
+<script>
+	var books = [
+	{title: "Harry Potter",
+	author: "JK Rowling",
+	read: true},
+	
+	{title: "LOTR",
+	author: "Tolkien",
+	read: false},
+	];
+
+	for (var index = 0; index < books.length; index++) {
+		document.write(books[index].title + " by " + books[index].author);
+		
+		if (books[index].read === true) {
+			document.write(" you have already read this");
+		} else {
+			document.write(" you have NOT read this yet");
+		};
+		document.write('<br/>');
+	};
+
+</script><br>
+-------------------------------------
+<p>EXERCISE: The reading list</p>
+<script>
+	var books = [
+	{title: "Harry Potter",
+	author: "JK Rowling",
+	read: true},
+	
+	{title: "LOTR",
+	author: "Tolkien",
+	read: false},
+	];
+
+	for (var index = 0; index < books.length; index++) {
+		document.write(books[index].title + " by " + books[index].author);
+		
+		if (books[index].read === true) {
+			document.write(" you have already read this");
+		} else {
+			document.write(" you have NOT read this yet");
+		};
+		document.write('<br/>');
+	};
+
+</script><br>
+-------------------------------------
+<p>EXERCISE: The Mole</p>
+<script>
+	var mole = new Object();
+	
+	mole.serves = 2;
+	mole.ingredients = ["Cinnamon", "Cumin", "Cocoa", "Monekys"];
+
+	
+	for (var index = 0; index < mole.ingredients.length; index++) {
+		document.write(mole.ingredients[index] + " ");
+	}
+
+</script><br>
+-------------------------------------
+<p>EXERCISE: The Fortune Teller</p>
+<script>
+	var kids = 2;
+	document.write(kids + " kids");
+</script><br>
+
+-------------------------------------
+<p>EXERCISE: The Age Calculator</p>
+<script>
+	var x = new Date();
+	var y = x.getFullYear();
+	var z = 1991;
+	var x1 = y - z
+	var x2 = y - z -1
+	document.write("Born in 1991 -> ur either " + x1 + " or " + x2);
+</script><br>
+-------------------------------------
+<p>EXERCISE: The Lifetime Supply Calculator</p>
+<script>
+	var x = new Date();
+	var y = x.getFullYear();
+	var z = 1991;
+	var x1 = y - z
+	var x2 = y - z -1
+	document.write("Born in 1991 -> ur either " + x1 + " or " + x2);
+</script><br>
+-------------------------------------
+<p>EXERCISE: The Geometrizer</p>
+<script>
+	var radius = 7;
+	var diameter = radius * 2;
+	var circumference = Math.PI*diameter; 
+	document.write(circumference);
+</script><br>
+-------------------------------------
+<p>EXERCISE: The Temperature Converter</p>
+<script>
+	var c = 18;
+	var f = (c*9)/5 + 32;
+	document.write(f);
+</script><br>
+-------------------------------------
+</html>
